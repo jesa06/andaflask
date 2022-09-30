@@ -16,4 +16,3 @@ EXPOSE 8080
 
 CMD [ "gunicorn", "main:app" ]
 
-test test test
