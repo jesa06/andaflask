@@ -14,5 +14,3 @@ ENV GUNICORN_CMD_ARGS="--workers=3 --bind=0.0.0.0:8080"
 EXPOSE 8080
 # --- Run Web Application in production style ---
 CMD [ "gunicorn", "main:app" ]
-hello 
- 
